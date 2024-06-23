@@ -1,0 +1,96 @@
+body{
+    background-color: gray;
+    padding: 0;
+}
+
+.conteiner{
+    width: 900px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: auto;
+    padding: 40px;
+    border-radius: 4px;
+}
+
+.calc{
+    width: 300px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    row-gap: 20px;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.calc h1{
+    font-size: 18pt;
+    font-weight: 700;
+}
+
+input{
+    height: 22px;
+    width: 280px;
+    padding: 8px;
+    font-size: 12pt;
+    margin: 15px 70px;
+    border-radius: 5px;
+    text-align: right;
+}
+
+input[type=number]:focus{
+    outline: none;
+    box-shadow: 0 0 10px blue;
+    border: 1px solid aqua;
+}
+
+
+button{
+    background-color: rgb(57, 57, 235);
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-decoration: none;
+    font-size: 10pt;
+    border-radius: 4px;
+    cursor: pointer;   
+}
+
+button:hover{
+    background-color: blue;     
+    box-shadow: 0 8px 16px 0 rgba(88, 83, 83, 0.2);
+}
+
+.titulo{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    font-size: 14pt;
+    font-weight: 700;
+}
+
+.operacao{
+   text-align: right;
+   padding: 20px;
+   font-size: 14pt;
+   font-weight: 700;
+}
+
+.historico{
+    background-color: black;
+    color: white;
+    width: 400px;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    font-size: 12pt;
+    text-align: right;
+}
+
+    
+img{
+    width: 50px;
+}

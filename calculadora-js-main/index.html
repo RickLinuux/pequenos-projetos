@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css"/>
+    <title>Calculadora</title>
+</head>
+<body>
+    <div class="conteiner">
+        <div class="calc">
+            <h1>Calculadora</h1>
+            <img src="/img/img.png" alt="icone Calculadora">
+            <input id="numero1" type="number"/>
+            <input id= "numero2" type="number"/>
+            <div class="controles">
+                <button onclick="calc('+')">+</button>
+                <button onclick="calc('-')">-</button>
+                <button onclick="calc('*')">*</button>
+                <button onclick="calc('/')">/</button>   
+            </div>
+
+            <button onclick="limpar()">Limpar</button>
+            <input id="resultado" readonly/>
+        </div>
+        
+        <div class="historico" >
+            <div class="titulo">
+                Historico
+            </div>
+            <div class="operacao">
+                <p>As 10 últimas operações</p>
+                <div id="historico">
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+<script src="script.js"></script>
+</body>
+</html>
