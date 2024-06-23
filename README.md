@@ -7,6 +7,6 @@ As tecnologias padrão para este repositório incluem.
   - Java
   - SQL(Mysql & MariaDB)
 
-Os rojetos podem variar desde exercícios para aprimoramento até demostrações de lógica de programação. A ideia por trás deste repositório é mostrar o processo
+Os projetos podem variar desde exercícios para aprimoramento até demostrações de lógica de programação. A ideia por trás deste repositório é mostrar o processo
 contínuo de aperfeiçoamento individual. Espero que muitas coisas interessantes estejam por vir! Embora as tecnologias possam ser alteradas, começaremos com esse conjuto inicial de
 módulos.
